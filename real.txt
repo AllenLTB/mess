@@ -1,0 +1,449 @@
+正式线 
+svn https://svn.leju.com/code/subject.leju.com/trunk/
+项目绑定hosts访问 ：123.59.190.212 subject.leju.com
+
+wangfan3@leju.com
+ 
+发件人： wangfan3@leju.com
+发送时间： 2020-04-03 15:31
+收件人： 周李滨; zhaohang
+抄送： zhangzeng; 陈启清; 杜洋; gaozhi
+主题： Re: Re: 申请新项目subject.leju.com
+测试线 :
+PHP版本 7.3.16
+svn  https://svn.leju.com/code/subject.leju.com/branches/ 
+项目绑定hosts访问 ：123.59.201.154 subject.bch.leju.com
+
+正式线稍后
+
+
+
+
+汪帆 @18810050471 
+
+发件人： 周李滨
+发送时间： 2020-04-03 10:40
+收件人： zhaohang@leju.com
+抄送： wangfan3; zhangzeng; 陈启清; 杜洋; 张高智
+主题： Re: Re: Re: 申请新项目subject.leju.com
+收到！多谢各位！~
+
+
+-----原始邮件-----
+发件人:"zhaohang@leju.com" <zhaohang@leju.com>
+发送时间:2020-04-03 09:52:48 (星期五)
+收件人: "周李滨" <libin@leju.com>, wangfan3 <wangfan3@leju.com>, zhangzeng <zhangzeng@leju.com>
+抄送: "陈启清" <qiqing@leju.com>, "杜洋" <duyang1@leju.com>, "张高智" <gaozhi@leju.com>
+主题: Re: Re: 申请新项目subject.leju.com
+
+机器权限已添加，后续@汪帆 @章曾 跟进支持一下吧。
+
+注：php7可以直接用第三方的php库来直接安装，例如  https://webtatic.com/ ，也可选择其他的第三方php库
+
+___________________________________________________
+赵航(运维@北京)
+___________________________________________________
+ 
+发件人： weiqiang8@leju.com
+发送时间： 2020-04-01 17:30
+收件人： 赵航; 周李滨; wangfan3; zhangzeng
+抄送： 陈启清; 杜洋; gaozhi
+主题： Re: Re: 申请新项目subject.leju.com
+机器创建完成：
+产线 4c8g 200G centos7：
+            10.204.28.39
+            10.204.28.36
+测试环境2c4g 200G centos7：
+            10.204.26.82
+
+___________________________________________________
+
+
+由于网络的不安定性，电子邮件有可能被第三方截获并利用。如该情况发生，此邮件并不存在作为法律证供的条件。这份电子信件(包括附件)的内容只有信件指定的收件人才能阅览，对第三方保密, 第三方无权公开。非邮件指定的收件人公开，拷贝，分发或利用此邮件的内容是被法律禁止的。如您是非指定的收件人, 意外收到此邮件, 请立即回信告知我们，并将邮件及附件从您的系统中删除。谢谢您的合作。
+
+ 
+发件人： zhaohang@leju.com
+发送时间： 2020-04-01 16:50
+收件人： 周李滨; wangfan3; weiqiang8@leju.com; zhangzeng
+抄送： 陈启清; 杜洋; 张高智
+主题： Re: 申请新项目subject.leju.com
+@伟强 协助创建三台虚机
+
+两台正式  4c8g 200G centos7
+一台测试  2c4g 200G centos7
+
+___________________________________________________
+赵航(运维@北京)
+___________________________________________________
+ 
+发件人： 周李滨
+发送时间： 2020-04-01 16:44
+收件人： wangfan3
+抄送： 陈启清; 赵航; 杜洋
+主题： 申请新项目subject.leju.com
+
+汪帆好！
+
+
+
+根据业务需要，需申请新项目subject.leju.com，请解析配置：
+
+域名需支持https
+
+项目php版本7.1以上
+
+需要测试线、正式线
+
+
+
+--
+@chenggang,zhangzeng,
+
+--------项目 好房运营管理平台 admin.hf.bch.leju.com  生产环境MySQL数据库配置信息 ----------
+##MySQL:
+MasterDNS: m4248.yz.hf.grid.house.sina.com.cn
+SlaveDNS:  s4248.yz.hf.grid.house.sina.com.cn
+db_name: hf_leju_com
+db_port:  4248
+username: hf_prod_user
+pwd: 3JpaL4kkj99E1wuv
+
+请将下面对应域名IP进行解析
+m4248.yz.hf.grid.house.sina.com.cn  --> 10.204.11.85
+s4248.yz.hf.grid.house.sina.com.cn  --> 10.204.11.87 
+
+
+
+
+谢晓杰 DBA
+Email: xiaojie12@leju.com 
+Tel: 1832/18410076530
+Addr: H-G
+
+ 
+发件人： xiaojie12
+发送时间： 2020-04-13 11:01
+收件人： zhangzeng; 徐成刚; zhaohang
+抄送： wangfan3; xingqian; gaozhi; 徐晗君; bingli
+主题： Re(2):新项目-好房运营管理平台 申请域名及SVN
+--------项目 admin.hf.bch.leju.com  测试环境MySQL数据库配置信息 ----------
+##MySQL:
+host:10.204.11.158
+db_name: bch_hf_leju_com
+db_port: 8111
+username: hf_bch_user
+pwd: FnFZVKMldOWpEoxA
+本地代理可连接 : (i.)yz.mytest.leju.com 58111
+生产环境明天(如果有合适资源)提供。
+
+
+
+
+
+
+
+
+
+
+--------项目 admin.vr.bch.leju.com 测试环境MySQL数据库配置信息 ----------
+##MySQL:
+host:10.204.11.158
+db_name: bch_vr_leju_com
+db_port: 8111
+username: vr_bch_user
+pwd: 6VDl3D1gUpuDTfj1
+本地代理可连接 : yz.mytest.leju.com 58111
+
+--------项目 admin..vr.leju.com  生产环境MySQL数据库配置信息 ----------
+##MySQL:
+MasterDNS: m4247.yz.vr.grid.house.sina.com.cn
+SlaveDNS:  s4247.yz.vr.grid.house.sina.com.cn
+db_name: vr_leju_com
+db_port:  4247
+username: vr_prod_user
+pwd: nmXnYrfpaIbgGuG9
+请将下面对应域名IP进行解析
+m4247.yz.vr.grid.house.sina.com.cn  --> 10.204.11.85
+s4247.yz.vr.grid.house.sina.com.cn  --> 10.204.11.87
+
+--------项目 sundata.bch.leju.com 测试环境MySQL数据库配置信息 ----------
+##MySQL:
+host: 10.204.26.15
+db_name: bch_sundata_leju_com
+db_port: 8222
+username: sundata_bch_user
+pwd: vlKrXsLrac224Mxg
+
+可复用10.204.34.18 PHP版本7.2.25 
+
+@汪帆
+
+ 
+
+1、 申请新建一个svn，域名使用service-push.leju.com （chongyang2和baocheng这两个用户拥有权限）    @宝成 你看域名是否可以使用（消息推送服务），部署权限chongyang2@leju.com  baocheng@leju.com（管理员）
+
+2、申请一个php的开发环境，域名同上，
+
+    环境要求：
+    PHP >=7.3
+    Laravel = 7
+    PHP的扩展
+    BCMath 扩展
+    Ctype 扩展
+    Fileinfo 扩展
+    JSON 扩展
+    Mbstring 扩展
+    OpenSSL 扩展
+    PDO 扩展
+    Tokenizer 扩展
+    XML 扩展
+    Redis 扩展
+    PDO 扩展
+    Mysqli扩展
+
+
+chongyang2@leju.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `yc_t_activity` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `activity_sn` int(11) NOT NULL DEFAULT '0' COMMENT '活动序号滴滴返回的序号',
+  `activity_code` varchar(20) NOT NULL DEFAULT '' COMMENT '活动code',
+  `city_en` varchar(20) DEFAULT '' COMMENT '城市code',
+  `city_cn` varchar(20) DEFAULT NULL COMMENT '城市名称',
+  `activity_name` varchar(50) DEFAULT '' COMMENT '活动名称',
+  `project_name` varchar(20) DEFAULT NULL COMMENT '项目名称（楼盘名称）',
+  `hid` int(11) NOT NULL DEFAULT '0' COMMENT '项目id 楼盘id',
+  `project_type` tinyint(1) unsigned DEFAULT '1' COMMENT '项目类型1合作;2体验',
+  `contract_num` varchar(100) DEFAULT '0' COMMENT '合同号',
+  `contract_money` decimal(10,0) DEFAULT '0' COMMENT '合同金额',
+  `house_unique_id` int(11) NOT NULL DEFAULT '0' COMMENT '内容池返回的楼盘唯一id',
+  `loupan_address` varchar(200) DEFAULT '' COMMENT '楼盘地址',
+  `max_money` decimal(10,0) DEFAULT '0' COMMENT '资金上限',
+  `project_start_time` int(11) NOT NULL DEFAULT '0' COMMENT '项目开始时间',
+  `project_end_time` int(11) NOT NULL DEFAULT '0' COMMENT '项目结束时间',
+  `approval_status` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '项目状态:0草稿;1待审批;2通过;3驳回;4关闭;5开启',
+  `approval_type` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '审批类型:1新建审批;2变更审批',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) NOT NULL COMMENT '更新时间',
+  `global_config` varchar(500) DEFAULT NULL COMMENT '全局配置；活动分享；图片上传',
+  `loupan_city` varchar(10) DEFAULT NULL COMMENT '楼盘id+城市id',
+  `is_repet` smallint(1) DEFAULT '0' COMMENT '是否可叠加 0 不能; 1能',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `u_a` (`activity_code`),
+  KEY `idx_st` (`project_start_time`),
+  KEY `idx_et` (`project_end_time`),
+  KEY `idx_city` (`city_en`),
+  KEY `idx_lc` (`loupan_city`),
+  KEY `idx_u_id` (`house_unique_id`),
+  KEY `idx_hid` (`hid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='车票活动主表';
+
+
+
+CREATE TABLE `yc_t_activity_adviser_auth` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `activity_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '活动id',
+  `adviser_id` int(11) unsigned NOT NULL COMMENT '顾问id',
+  `is_share` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '分享权限:0关闭;1开启',
+  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '是否可用:1可用;0不可用',
+  `is_write_off` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '核销权限:0关闭;1开启',
+  `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `share_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '分享次数',
+  `get_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '领取客户次数',
+  `use_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '客户使用次数',
+  `write_off_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '核销数',
+  `cashback_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '返现数',
+  `create_uid` int(20) NOT NULL DEFAULT '0' COMMENT '创建人uid',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ad` (`adviser_id`),
+  KEY `idx_ac` (`activity_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='车票活动顾问权限表';
+
+
+
+CREATE TABLE `yc_t_activity_operation_log` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(11) NOT NULL DEFAULT '0' COMMENT '活动id',
+  `create_time` int(11) NOT NULL COMMENT '创建时间',
+  `op_uid` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '操作人id',
+  `operate` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '操作:0创建草稿;1新建活动;2审批通过;3驳回;4关闭;5开启;6变更;7编辑',
+  `op_content` varchar(100) NOT NULL DEFAULT '' COMMENT '操作内容',
+  `param` varchar(800) NOT NULL DEFAULT '' COMMENT '记录当时操作参数，方便以后查找问题',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ac` (`activity_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='活动操作记录表';
+
+
+
+CREATE TABLE `yc_t_activity_support_platform` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(11) NOT NULL COMMENT '活动id',
+  `platform` tinyint(3) unsigned NOT NULL COMMENT '支持平台',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ac` (`activity_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='活动支持平台扩展表';
+
+
+CREATE TABLE `yc_t_activity_ticket` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '活动id',
+  `ticket_value` smallint(11) unsigned NOT NULL DEFAULT '5' COMMENT '车票面值车票面值：5--1000正整数',
+  `total_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '张数',
+  `surplus_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '剩余张数',
+  `single_num` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '单人张数',
+  `weight` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '权重',
+  `day_get_num` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '日领取张数',
+  `week_get_num` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '周领取张数',
+  `invalid` smallint(11) unsigned NOT NULL DEFAULT '0' COMMENT '失效天数',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ac` (`activity_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='活动车票表';
+
+
+
+
+
+CREATE TABLE `yc_t_activity_ticket_log` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '活动id',
+  `ticket_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '车票id',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `status` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '车票状态:0领取失败;1已领取;2已使用;3待核销;4已核销;5已返现;6已过期;7已失效',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `index_a_t` (`activity_id`,`ticket_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='活动车票状态记录';
+
+CREATE TABLE `yc_t_adviser` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `username` varchar(18) NOT NULL DEFAULT '' COMMENT '职业顾问名称',
+  `mobile` varchar(20) NOT NULL DEFAULT '' COMMENT '顾问手机号',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `zid` int(11) NOT NULL DEFAULT '0' COMMENT '来客平台id',
+  `update_time` int(11) NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `u_phone` (`mobile`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='置业顾问表';
+
+CREATE TABLE `yc_t_api_log` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `method` varchar(255) NOT NULL DEFAULT '0' COMMENT '活动id',
+  `data` varchar(2048) NOT NULL DEFAULT '0' COMMENT '车票id',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `res` varchar(2048) NOT NULL DEFAULT '' COMMENT '结果',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_method` (`method`(191))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='请求日志';
+
+
+CREATE TABLE `yc_t_data_statistics` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '活动id',
+  `get_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '领取数',
+  `use_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '使用数',
+  `write_off_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '核销数',
+  `cashback_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '返现数',
+  `invalid_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '失效数',
+  `expire_num` smallint(6) unsigned NOT NULL DEFAULT '0' COMMENT '过期数',
+  `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ac` (`activity_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='数据统计表';
+
+CREATE TABLE `yc_t_ticket_order` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `activity_id` int(11) unsigned NOT NULL COMMENT '活动id',
+  `order_source` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '订单来源0，1，2，3，4',
+  `ticket_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '车票id',
+  `phone` varchar(20) NOT NULL DEFAULT '' COMMENT '客户手机号',
+  `ticket_status` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '车票状态:0领取失败;1已领取;2已使用;3待核销;4已核销;5已返现;6已过期;7已失效',
+  `get_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '领取时间',
+  `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `write_off_time` int(11) NOT NULL DEFAULT '0' COMMENT '核销时间',
+  `write_off_code` varchar(20) NOT NULL DEFAULT '' COMMENT '核销码',
+  `recommend_uid` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '推荐顾问',
+  `write_off_uid` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '核销顾问',
+  `user_id` bigint(40) NOT NULL COMMENT '用户中心id ',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_ac` (`activity_id`),
+  KEY `idx_p` (`phone`)
+  KEY `idx_user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='车票订单表';
+
+
+
+CREATE TABLE `yc_t_ticket_order_lose` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `order_id` int(11) unsigned NOT NULL COMMENT '订单',
+  `lose_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `full_source` varchar(40) DEFAULT '' COMMENT '来源',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_o_id` (`order_id`) USING BTREE
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='车票订单表';
+
+CREATE TABLE `yc_t_ticket_whitelist` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `identity_type` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '身份类型：0全部;1职业顾问;2用户',
+  `account_type` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '账号类型：1黑名单 ; 2白名单;',
+  `username` varchar(20) NOT NULL DEFAULT '' COMMENT '姓名',
+  `phone` varchar(20) NOT NULL DEFAULT '' COMMENT '手机号',
+  `create_uid` int(11) NOT NULL DEFAULT '0' COMMENT '创建人uid',
+  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '添加时间',
+  `edit_uid` int(11) NOT NULL DEFAULT '0' COMMENT '编辑人',
+  `update_time` int(11) NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `zid` int(11) NOT NULL DEFAULT '0' COMMENT '顾问zid',
+  PRIMARY KEY (`id`),
+  KEY `idx_p` (`phone`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='车票名单管理';
+
+CREATE TABLE `yc_t_user_ticket` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `activity_id` int(11) NOT NULL DEFAULT '0' COMMENT '活动id',
+  `uid` bigint(40) NOT NULL COMMENT '用户中心id',
+  `get_num` int(11) NOT NULL DEFAULT '0' COMMENT '领取数',
+  `date_update_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `un_a_u` (`activity_id`,`uid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='用户领取数据';

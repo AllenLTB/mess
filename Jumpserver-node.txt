@@ -1,0 +1,30 @@
+部署参考的文档
+https://jumpserver.readthedocs.io/zh/docs/setup_by_centos7.html
+
+在安装python相关软件的时间总是有问题，有时候一连多次都有问题，但是我还是重复执行，最后就安装上了。
+
+但是在安装MarkupSafe的时候总是报错，最后参考这个文章解决了
+记一次python3 pip安装MarkupSafe==1.0失败解决过程（https://blog.csdn.net/h106140873/article/details/104794744/）
+
+
+
+
+
+(py3) [10.208.3.26 root@jumpserver1:/opt/jumpserver]# echo -e "\033[31m 你的SECRET_KEY是 $SECRET_KEY \033[0m"
+ 你的SECRET_KEY是 fYsA3vmrzgkUqUkH2XP1Yx5M6BkqaZysuWTkzJfG8YdRtMUiDY 
+(py3) [10.208.3.26 root@jumpserver1:/opt/jumpserver]# echo -e "\033[31m 你的BOOTSTRAP_TOKEN是 $BOOTSTRAP_TOKEN \033[0m"
+ 你的BOOTSTRAP_TOKEN是 VaWMnq0GSq9Oagos 
+
+(py3) [10.208.3.26 root@jumpserver1:/opt/jumpserver]# echo $DB_PASSWORD
+f5A8XN9Ljvjx4laBdraplwL5
+
+
+(py3) [10.208.3.26 root@jumpserver1:/opt/jumpserver]# mysql -e "grant all on jumpserver.* to 'jumpserver'@'localhost' identified by '$DB_PASSWORD'; flush privileges;"
+
+
+
+
+WorkingDirectory=/opt/jumpserver
+PIDFile=/opt/jumpserver/tmp/jms.pid
+Environment="PATH=/opt/py3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin"
+
